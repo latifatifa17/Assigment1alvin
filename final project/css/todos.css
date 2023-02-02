@@ -1,0 +1,83 @@
+
+  button:hover {
+    cursor: pointer;
+    background-color: #73E831;
+  }
+  
+  ul {
+    list-style-type: none; /* get rid of bullet points on side of list items */
+  }
+  
+  /* common style ends */
+  
+  /* container */
+
+  
+
+  .todo-input {
+    width: 250px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 4rem;
+  }
+  
+  .add-button {
+    background-color: #ff00cc;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 4rem;
+  }
+  
+  /* todo-form style ends */
+  
+  /* todo-items */
+ 
+  /* each li with class="item" */
+  .item {
+    background-color: #fff;
+    padding: 10px;
+    font-size: 4rem;
+  }
+  
+  .item:first-child {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+  }
+  
+  .item:last-child {
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+  }
+  
+  /* item style end */
+  
+  .checkbox {
+    margin-right: 10px;
+  }
+  
+  .delete-button {
+
+    background-color: #ff00b3;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    padding: 2px 5px;
+    margin-left: 10px;
+    font: size 4rem;
+    font-weight: 550;
+  }
+  
+  /* applied when the todo item is checked */
+  .checked { 
+    text-decoration: line-through;
+  }
+  
+  /* todo-items style ends */
+  
+  /* container style ends */
